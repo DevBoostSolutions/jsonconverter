@@ -1,0 +1,25 @@
+{
+  "name": "@devboostsolution/jsonconverter",
+  "author": "LongVQ",
+  "version": "1.0.0",
+  "description": "A versatile package to serialize and deserialize JSON data to and from Python objects effortlessly.",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "npx tsc -w -p ./tsconfig.build.json",
+    "build": "npx tsc -p ./tsconfig.build.json",
+    "clean": "rm -rf build && rm -rf coverage && rm -rf node_modules",
+    "test:watch": "jest --watch",
+    "test": "jest --config ./test/jest.json --verbose --runInBand"
+  },
+  "release": {
+    "branch": "main"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
