@@ -1,10 +1,6 @@
 # JsonConverter
 > A TypeScript utility for serializing and deserializing JSON data. 
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 This project provides a simple utility class `JsonConverter` with static methods to serialize TypeScript objects into JSON strings and deserialize JSON strings back into TypeScript objects. It ensures type safety during deserialization by allowing you to specify the expected type.
 
 ## Features
