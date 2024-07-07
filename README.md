@@ -25,9 +25,34 @@ yarn install @devboostsolution/jsonconverter
 ```
 
 ## Usage example
-
 ```typescript
 import { JsonConverter } from @devboostsolution/jsonconverter
+
+export type User = {
+    id: number;
+    name: string;
+    email: string;
+    age: number;
+};
+
+export type Category = {
+    id: number;
+    name: string;
+};
+
+export type Product = {
+    id: number;
+    name: string;
+    price: number;
+    quantity: number;
+    category: Category;
+};
+
+export type Order = {
+    id: number;
+    user: User;
+    products: Product[];
+};
 
 const data: Order = {
   id: 1,
@@ -38,7 +63,11 @@ const data: Order = {
   ]
 };
 
+// Serialize
 const dataString = JsonConverter.serialize(data);
+
+// Deserialize
+const result = JsonConverter.deserialize<Order>(dataString);
 ```
 
 ## Development setup
