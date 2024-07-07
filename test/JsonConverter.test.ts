@@ -1,5 +1,5 @@
-import { JsonConverter } from '../src/JsonConverter';
-import { User, Product, Category, Order } from './type';
+import { JsonConverter } from '../src';
+import { User, Product, Order } from './type';
 import { describe, expect, it } from '@jest/globals';
 
 describe('Test package JsonConverter', () => {
