@@ -1,11 +1,11 @@
 {
-  "name": "@devboostsolution/json-converter",
+  "name": "@devboostsolution/jsonconverter",
   "author": "LongVQ",
   "version": "1.0.0",
   "description": "A versatile package to serialize and deserialize JSON data to and from Python objects effortlessly.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevBoostSolutions/json-converter.git"
+    "url": "git+https://github.com/DevBoostSolutions/jsonconverter.git"
   },
   "main": "./build/index.js",
   "scripts": {
