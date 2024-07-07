@@ -1,7 +1,7 @@
 {
   "name": "@devboostsolution/jsonconverter",
   "author": "LongVQ",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A versatile package to serialize and deserialize JSON data to and from Python objects effortlessly.",
   "repository": {
     "type": "git",
@@ -25,11 +25,9 @@
     "deserialization"
   ],
   "license": "ISC",
-  "dependencies": {
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.5"
-  },
   "devDependencies": {
+    "ts-jest": "^29.1.5",
+    "jest": "^29.7.0",
     "typescript": "^5.5.3"
   }
 }
